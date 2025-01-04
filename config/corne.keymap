@@ -14,7 +14,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CONTROLHOMEROW";
             #binding-cells = <0>;
-            bindings = <&kp S>, <&kp LEFT_CONTROL>;
+            bindings = <&kp LEFT_CONTROL>, <&kp S>;
         };
     };
 
