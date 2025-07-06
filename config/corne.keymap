@@ -6,6 +6,8 @@
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+#define MEH LC(LS(LALT))
+#define HYPER LC(LS(LA(LGUI)))
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
